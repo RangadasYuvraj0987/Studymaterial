@@ -1,0 +1,151 @@
+{
+  "subjectName": "VLSI Design Lesson Plan",
+  "description": "VLSI Design - 5 units",
+  "units": [
+    {
+      "name": "Unit 1: Introduction to IC Technology and Electrical Properties",
+      "topics": [
+        {
+          "name": "MOS and Bi-CMOS Technologies",
+          "subtopics": [
+            { "name": "Metal-oxide-semiconductor (MOS)" },
+            { "name": "P-channel MOS" },
+            { "name": "N-channel MOS" },
+            { "name": "Complementary MOS (CMOS)" },
+            { "name": "Bi-CMOS technologies" }
+          ]
+        },
+        { "name": "Signal Applications" },
+        {
+          "name": "Fabrication Processes",
+          "subtopics": [
+            { "name": "Oxidation" },
+            { "name": "Lithography" },
+            { "name": "Diffusion" },
+            { "name": "Ion implantation" },
+            { "name": "Metallization" },
+            { "name": "Encapsulation" },
+            { "name": "Probe testing" }
+          ]
+        },
+        { "name": "Integrated Resistors and Capacitors" },
+        { "name": "CMOS Nanotechnology" },
+        {
+          "name": "Electrical Properties and Relationships",
+          "subtopics": [
+            { "name": "Ids-Vds relationships" },
+            { "name": "MOS transistor threshold voltage" },
+            { "name": "Transconductance (gm)" },
+            { "name": "Output conductance (gds)" },
+            { "name": "Figure of merit (wo)" }
+          ]
+        },
+        {
+          "name": "Circuits and Inverters",
+          "subtopics": [
+            { "name": "Pass transistor" },
+            { "name": "NMOS inverter" },
+            { "name": "Various pull-ups" },
+            { "name": "CMOS inverter analysis and design" },
+            { "name": "Bi-CMOS inverters" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Unit 2: VLSI Circuit Design Processes",
+      "topics": [
+        { "name": "VLSI design flow" },
+        {
+          "name": "Layout and Design Rules",
+          "subtopics": [
+            { "name": "MOS layers" },
+            { "name": "Stick diagrams" },
+            { "name": "Design rules and layout" },
+            { "name": "2um CMOS design rules for wires, contacts, and transistors" }
+          ]
+        },
+        {
+          "name": "Layout Diagrams",
+          "subtopics": [
+            { "name": "NMOS and CMOS inverters" },
+            { "name": "Logic gates" }
+          ]
+        },
+        { "name": "Scaling of MOS circuits" }
+      ]
+    },
+    {
+      "name": "Unit 3: Gate Level Design Data Path Subsystems",
+      "topics": [
+        {
+          "name": "Gates and Circuits",
+          "subtopics": [
+            { "name": "Complex gates" },
+            { "name": "Switch logic" },
+            { "name": "Alternate gate circuits" },
+            { "name": "Time delays" },
+            { "name": "Driving large capacitive loads" }
+          ]
+        },
+        {
+          "name": "Wiring and Parameters",
+          "subtopics": [
+            { "name": "Wiring capacitances" },
+            { "name": "Fan-in and fan-out" },
+            { "name": "Choice of layers" }
+          ]
+        },
+        {
+          "name": "Subsystem Design and Components",
+          "subtopics": [
+            { "name": "Subsystem design, shifters" },
+            { "name": "Subsystem design, 1-bit full adder" },
+            { "name": "Subsystem design, ALU" },
+            { "name": "Subsystem design, Braun multiplier" },
+            { "name": "Subsystem design, parity generators" },
+            { "name": "Subsystem design, comparators" },
+            { "name": "Subsystem design, zero/one detectors" },
+            { "name": "Subsystem design, counters" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Unit 4: Array Subsystems and Semiconductor Integrated Circuit Design",
+      "topics": [
+        {
+          "name": "Memory Types",
+          "subtopics": [
+            { "name": "SRAM" },
+            { "name": "DRAM" },
+            { "name": "ROM" },
+            { "name": "Serial access memory" },
+            { "name": "Content addressable memory (CAM)" }
+          ]
+        },
+        {
+          "name": "Programmable Logic Devices",
+          "subtopics": [
+            { "name": "Semiconductor integrated circuit design: PLAs" },
+            { "name": "Semiconductor integrated circuit design: PALs" },
+            { "name": "Semiconductor integrated circuit design: FPGAs" },
+            { "name": "Semiconductor integrated circuit design: CPLDs" },
+            { "name": "Standard cells" }
+          ]
+        },
+        { "name": "Parameters influencing low power design" }
+      ]
+    },
+    {
+      "name": "Unit 5: CMOS Testing",
+      "topics": [
+        { "name": "CMOS testing, need for testing" },
+        { "name": "Test principles, design strategies for test" },
+        { "name": "Chip level test techniques" },
+        { "name": "System-level test techniques" },
+        { "name": "Layout design for improved testability" }
+      ]
+    }
+  ]
+}
